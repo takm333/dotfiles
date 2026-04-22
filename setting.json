@@ -1,0 +1,98 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Default",
+  "files.associations": {
+    "*.html": "html"
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "cSpell.fixSpellingWithRenameProvider": false,
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.suggest.insertMode": "replace",
+    "cSpell.fixSpellingWithRenameProvider": false,
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.mouseWheelZoom": true,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.port": 0,
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "git.openRepositoryInParentFolders": "never",
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "debug.javascript.debugByLinkOptions": "on",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
+}
